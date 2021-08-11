@@ -1,0 +1,12 @@
+student = Table()
+
+student.create_column(id, first_name, last_name, major)
+
+student.insert_value(1, Sam, Rogers, Science)
+
+student.insert_values(
+	(2, Selena, Diaz, Com. Science),
+	(3, James, Hawking, Physics)
+)
+
+

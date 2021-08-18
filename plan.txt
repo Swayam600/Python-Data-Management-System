@@ -1,12 +1,16 @@
+######## VERSION -> 0.2.0 #########
+
 student = Table()
 
-student.create_column(id, first_name, last_name, major)
-
-student.insert_value(1, Sam, Rogers, Science)
-
-student.insert_values(
-	(2, Selena, Diaz, Com. Science),
-	(3, James, Hawking, Physics)
+student.create_columns(
+	id = 'INT',
+	name = 'STRING',
+	date_joined = 'DATE'
 )
 
+student.insert_value(1, 'Sam', '2015-12-03)
 
+student.insert_values(
+	[2, 'Steve', '2001-09-08'],
+	[3, 'Mike', '2011-01-02']
+)
